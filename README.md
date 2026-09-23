@@ -1,6 +1,6 @@
 # ⚡ ComfyUI-H3-Static-Camera & Video Toolset
 
-[EN] A powerful, lightweight custom node set and LLM engine built specifically for ComfyUI to streamline high-end video generation (MiniMax-H3 / LTX models), eliminate "node spaghetti," prevent Out-Of-Memory (OOM) errors on 8GB VRAM cards, and provide professional color correction. Built entirely on pure core logic without heavy third-party dependencies.
+[EN] A powerful, lightweight custom node set and LLM engine built specifically for ComfyUI to streamline high-end video generation (MiniMax-H3 ), eliminate "node spaghetti," prevent Out-Of-Memory (OOM) errors on 8GB VRAM cards, and provide professional color correction. Built entirely on pure core logic without heavy third-party dependencies.
 
 [RU] Мощный и легкий набор авторских нод и LLM-движок для ComfyUI. Создан для оптимизации генерации видео (модели MiniMax-H3 / LTX), полной ликвидации "паутины из макарон", защиты от вылетов по памяти (OOM) на видеокартах от 8 ГБ VRAM и профессиональной区块ценообразования (цветокоррекции). Код написан на чистом ядре без тяжелых сторонних зависимостей.
 
