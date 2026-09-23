@@ -1,0 +1,14 @@
+[
+  {
+    "author": "neron5480-cell",
+    "title": "⚡ ComfyUI-H3-Static-Camera & Video Toolset",
+    "id": "ComfyUI-H3-Static-Camera",
+    "reference": "https://github.com",
+    "files": [
+      "https://github.com"
+    ],
+    "install_type": "git-clone",
+    "description": "Professional video toolset for MiniMax-H3/LTX models. Includes Fixed Camera H3 Presets with automatic system prompt processing, Smart Load & Resize Image with divisibility constraints, and Manual Color & Upscale Panel to rescue turbo step frames from over-exposure.",
+    "nodename_pattern": "SmartLoadAndResizeImage|TurboColorFixAdaIN|FixedCameraH3Presets"
+  }
+]
