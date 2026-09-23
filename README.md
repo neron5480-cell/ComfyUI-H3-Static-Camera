@@ -9,8 +9,10 @@
 ## 🧠 LLM Core Engine / Системный промптер
 
 ### ⚡ H3_NSFW_Engine 1.txt
-* **EN:** The core system prompt tuned for Qwen 3.5 9B. It acts as a strict compiler that converts short user briefs and reference images into finished MiniMax H3 FL2VA prompts. Features high-fidelity adult content formatting (zero censorship/sanitization) and enforces a rigid camera policy.
-* **RU:** Основное ядро системного промпта, прописанное под Qwen 3.5 9B. Работает как жесткий компилятор, переводящий короткие пользовательские наброски и референсы в готовые брифы для MiniMax H3. Включает полную поддержку взрослого контента без цензуры и жесткий контроль осей камеры.
+* **EN:** The core system prompt tuned for Qwen 3.5 9B (can be used as a system prompt in any autoprompter node setup). 
+  ⚠️ **Key Features:** By default, the camera is strictly locked (no zoom, no movement). However, it dynamically allows camera changes if explicitly requested in the user's prompt. If no camera instructions are given, the locked state remains absolute. It allows the user to write simple prompts in just 1-2 lines without following strict MiniMax-H3 formatting rules (though more details will yield better results). This prompt is engineered specifically to pair with the **Fixed Camera H3 (Presets)** node, as it generates precision hidden layout markers for the node to intercept. Includes high-fidelity adult content formatting (zero censorship).
+* **RU:** Основное ядро системного промпта, прописанное под Qwen 3.5 9B (можно подключать как системный промпт в любую ноду автопромптера).
+  ⚠️ **Ключевые фишки:** По умолчанию камера намертво заблокирована (нет зума и движений). Однако движок допускает изменение положения камеры, если это прямо прописано в тексте пользователя. Если пользователь вообще не указывает камеру, включается жесткая блокировка. Позволяет писать промпты всего в 1-2 строки, при этом соблюдать сложные правила разметки MiniMax-H3 не обязательно (хотя подробный текст улучшит итог). Этот промпт написан **специально для совместной работы с нодой Fixed Camera H3 (Presets)**, так как оставляет в тексте особые технические маркеры для её точной работы. Включает полную поддержку взрослого контента без цензуры.
 
 ---
 
