@@ -4,27 +4,7 @@
 
 [RU] Мощный и легкий набор авторских нод и LLM-движок для ComfyUI. Создан для оптимизации генерации видео (модели MiniMax-H3 ), полной ликвидации "паутины из макарон", защиты от вылетов по памяти (OOM) на видеокартах от 8 ГБ VRAM и профессиональной (цветокоррекции). Код написан на чистом ядре без тяжелых сторонних зависимостей.
 
----
-
-## 📊 Required Models / Необходимые модели
-
-[RU] **Скачайте эти модели (с Civitai / HuggingFace) и разложите их строго по указанным папкам:**
-1. Основная модель (Diffusion): `minimax_h3_fl2va_pruned_int8_convrot.safetensors` ➔ `ComfyUI/models/unet/`
-2. Ускоряющая LoRA (Turbo): `minimax_h3_fl2v_turbo_8step_v1.0_768p_comfyui_bf16.safetensors` ➔ `ComfyUI/models/loras/`
-3. Модель внимания (Vision/mmproj): `mmproj-F16.gguf` ➔ `ComfyUI/models/mmproj/`
-4. Аудио VAE: `minimax_h3_audio_vae_fp32.safetensors` ➔ `ComfyUI/models/vae/`
-5. Видео VAE: `minimax_h3_video_vae_fp16.safetensors` ➔ `ComfyUI/models/vae/`
-6. Модель CLIP: `qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors` ➔ `ComfyUI/models/clip/`
-
-[EN] **Download these models (from Civitai / HuggingFace) and place them strictly into the following directories:**
-1. Base Model (Diffusion): `minimax_h3_fl2va_pruned_int8_convrot.safetensors` ➔ `ComfyUI/models/unet/`
-2. Turbo LoRA: `minimax_h3_fl2v_turbo_8step_v1.0_768p_comfyui_bf16.safetensors` ➔ `ComfyUI/models/loras/`
-3. Vision Model (mmproj): `mmproj-F16.gguf` ➔ `ComfyUI/models/mmproj/`
-4. Audio VAE: `minimax_h3_audio_vae_fp32.safetensors` ➔ `ComfyUI/models/vae/`
-5. Video VAE: `minimax_h3_video_vae_fp16.safetensors` ➔ `ComfyUI/models/vae/`
-6. CLIP Model: `qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors` ➔ `ComfyUI/models/clip/`
-
----
+------
 
 ## 🧠 LLM Core Engine / Системный промптер
 
